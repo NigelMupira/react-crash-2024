@@ -7,10 +7,6 @@ function App() {
   const names = ['Mboks', 'Witiza', 'Mphathisi', 'Maposa']
   const loggedIn = true;
 
-  if (loggedIn) {
-    return <h1>Hello User</h1>;
-  }
-
   return (
     <div>
       <div className='text-5xl'>
@@ -23,6 +19,7 @@ function App() {
           <li key={index}>{name}</li>
         ))}
       </ul>
+      {loggedIn ? <h1>Hello User</h1> : <h1>Hello Guest</h1>}
     </div>
     
   )
