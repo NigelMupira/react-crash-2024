@@ -14,8 +14,8 @@ function App() {
       <p>Hello {name}</p>
       <p>The sume of {x} and {y} is {x + y}</p>
       <ul>
-        {names.map((name) => (
-          <li>{name}</li>
+        {names.map((name, index) => (
+          <li key={index}>{name}</li>
         ))}
       </ul>
     </div>
