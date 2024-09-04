@@ -5,6 +5,11 @@ function App() {
   const x = 3;
   const y = 7;
   const names = ['Mboks', 'Witiza', 'Mphathisi', 'Maposa']
+  const loggedIn = true;
+
+  if (loggedIn) {
+    return <h1>Hello User</h1>;
+  }
 
   return (
     <div>
