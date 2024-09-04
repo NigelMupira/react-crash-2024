@@ -5,7 +5,7 @@ function App() {
   const x = 3;
   const y = 7;
   const names = ['Mboks', 'Witiza', 'Mphathisi', 'Maposa']
-  const loggedIn = false;
+  const loggedIn = true;
 
   return (
     <div>
@@ -19,7 +19,7 @@ function App() {
           <li key={index}>{name}</li>
         ))}
       </ul>
-      {loggedIn ? <h1>Hello User</h1> : ''}
+      {loggedIn && <h1>Hello User</h1>}
     </div>
     
   )
