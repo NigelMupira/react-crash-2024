@@ -6,13 +6,17 @@ function App() {
   const y = 7;
   const names = ['Mboks', 'Witiza', 'Mphathisi', 'Maposa']
   const loggedIn = true;
+  const styles = {
+    color: 'purple',
+    fontSize: '24px'
+  };
 
   return (
     <div>
       <div className='text-5xl'>
         App
       </div>
-      <p style={{color:'purple', fontSize:'24px'}}>Hello {name}</p>
+      <p style={styles}>Hello {name}</p>
       <p>The sume of {x} and {y} is {x + y}</p>
       <ul>
         {names.map((name, index) => (
