@@ -9,7 +9,7 @@ const App = () => {
           <div
             class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
           >
-            <!-- Logo -->
+            {/* <!-- Logo --> */}
             <a class="flex flex-shrink-0 items-center mr-4" href="/index.html">
               <img
                 class="h-10 w-auto"
@@ -44,7 +44,7 @@ const App = () => {
       </div>
     </nav>
 
-    <!-- Hero -->
+    {/* <!-- Hero --> */}
     <section class="bg-indigo-700 py-20 mb-4">
       <div
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
@@ -62,7 +62,7 @@ const App = () => {
       </div>
     </section>
 
-    <!-- Developers and Employers -->
+    {/* <!-- Developers and Employers --> */}
     <section class="py-4">
       <div class="container-xl lg:container m-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
@@ -94,14 +94,14 @@ const App = () => {
       </div>
     </section>
 
-    <!-- Browse Jobs -->
+    {/* <!-- Browse Jobs --> */}
     <section class="bg-blue-50 px-4 py-10">
       <div class="container-xl lg:container m-auto">
         <h2 class="text-3xl font-bold text-indigo-500 mb-6 text-center">
           Browse Jobs
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <!-- Job Listing 1 -->
+          {/* <!-- Job Listing 1 --> */}
           <div class="bg-white rounded-xl shadow-md relative">
             <div class="p-4">
               <div class="mb-6">
@@ -131,7 +131,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <!-- Job Listing 2 -->
+          {/* <!-- Job Listing 2 --> */}
           <div class="bg-white rounded-xl shadow-md relative">
             <div class="p-4">
               <div class="mb-6">
@@ -161,7 +161,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <!-- Job Listing 3 -->
+          {/* <!-- Job Listing 3 --> */}
           <div class="bg-white rounded-xl shadow-md relative">
             <div class="p-4">
               <div class="mb-6">
